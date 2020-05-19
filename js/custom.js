@@ -1,3 +1,10 @@
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,zh-TW,zh-CN,ja,ko,fa,ar,vi,tl,be', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+
+}
+
+
+
 // map
 jQuery(function($) {
     // Asynchronously Load the map API 
