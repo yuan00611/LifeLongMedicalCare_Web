@@ -253,7 +253,7 @@
                         
                         
                         
- <div role="region" aria-labelledby="region3">                         
+<div role="region" aria-labelledby="region3">                         
                         
                         <div class="col-12">
                             <div class="the-news-wrap">
@@ -261,22 +261,7 @@
                                 <div class="entry-header">
                                     <h2 id="region3">FAQ</h2>
                                     </div>       
-                                      <div class="entry-content">
-                                      
-                                        
-                                         <ul>
-                                            <li>IS THERE A MYCHART APP?<br/>
-                                                <p>MyChart is available for Apple® or Android™ so you can have access to your health care information anywhere you have a smartphone. Once you’ve downloaded the app, choose LifeLong Medical Care as your healthcare organization. Then log in with your username and password.</p>
-                                            </li>
-                                            <li> HAVING TROUBLE LOGGING IN TO MYCHART?<br/>
-                                                 <p>Forgot your password? Having issues logging in? Contact a LifeLong Medical Care representative at (510) 981-4100 ext. 8. </p> 
-                                                
-                                             
-                                            </li>
-                                        </ul>
-                                         
-                                        
-                                    </div>
+                         
 
                               
                             </div>
@@ -284,10 +269,72 @@
 
                         
 
+ <div class="col-12">
+  <!-- Accordion Configuration Options
+  
+  data-allow-toggle
+    Allow for each toggle to both open and close its section. Makes it possible for all sections to be closed. Assumes only one section may be open.
+  
+  data-allow-multiple
+    Allow for multiple accordion sections to be expanded at the same time. Assumes data-allow-toggle otherwise the toggle on open sections would be disabled.
+  __________
+  
+  Ex:
+    <div id="accordionGroup" class="Accordion" data-allow-multiple>
+  
+    <div id="accordionGroup" class="Accordion" data-allow-toggle>
+  -->
+  <div id="accordionGroup" class="Accordion">
+    <h3>
+      <button aria-expanded="true"
+              class="Accordion-trigger"
+              aria-controls="sect1"
+              id="accordion1id">
+        <span class="Accordion-title">
+         IS THERE A MYCHART APP?
+          <span class="Accordion-icon"></span>
+        </span>
+      </button>
+    </h3>
+    <div id="sect1"
+         role="region"
+         aria-labelledby="accordion1id"
+         class="Accordion-panel">
+      <div>
+        <!-- Variable content within section, may include any type of markup or interactive widgets. -->
+          <p>MyChart is available for Apple® or Android™ so you can have access to your health care information anywhere you have a smartphone. Once you’ve downloaded the app, choose LifeLong Medical Care as your healthcare organization. Then log in with your username and password.</p>
+   
+      </div>
+    </div>
+    <h3>
+      <button aria-expanded="false"
+              class="Accordion-trigger"
+              aria-controls="sect2"
+              id="accordion2id">
+        <span class="Accordion-title">
+           HAVING TROUBLE LOGGING IN TO MYCHART?
+          <span class="Accordion-icon"></span>
+        </span>
+      </button>
+    </h3>
+    <div id="sect2"
+         role="region"
+         aria-labelledby="accordion2id"
+         class="Accordion-panel"
+         hidden="">
+      <div>
+          
+           <p>Forgot your password? Having issues logging in? Contact a LifeLong Medical Care representative at (510) 981-4100 ext. 8. </p>
+
+      </div>
+    </div>
+
+  </div>
+</div>
                         
                   
                         
-</div> <!--region3-->              
+</div> <!--region3-->            
                         
                         
                         
