@@ -368,8 +368,8 @@ input[type=text] {
 --------------------------------*/
 
 .mega-menu {
-    padding: 10px 0px ! important;
-    width: 380px;
+    padding: 5px 0px ! important;
+    width: 410px;
     border-radius: 0;
     margin-top: 0px;
 }
@@ -382,8 +382,8 @@ input[type=text] {
 }
 
 .mega-menu li.mega-menu-column {
-    margin-right: 20px;
-    width: 150px;
+    margin-right: 10px;
+    width: 180px;
 }
 
 .mega-menu .nav-header {
