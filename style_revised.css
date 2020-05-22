@@ -608,7 +608,8 @@ input[type=text] {
     color: #FFFFFF;
     font-size: 32px;
     background-color: rgba(54, 80, 114,0.8);
-    padding: 24px;
+    padding: 24px 32px 24px 20px;
+    justify-content: left;
 }
 
 .top-b a{
