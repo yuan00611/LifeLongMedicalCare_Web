@@ -261,7 +261,7 @@ input[type=text] {
 .dropdown-toggle{
     display: block;
     padding: 16px 0;
-    font-size: 16px;
+    font-size: 0.94 rem;
     font-weight: 600;
     line-height: 1;
     /*color: #404040;*/
