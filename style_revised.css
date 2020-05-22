@@ -261,7 +261,7 @@ input[type=text] {
 .dropdown-toggle{
     display: block;
     padding: 16px 0;
-    font-size: 0.94 rem;
+    font-size: 1 rem;
     font-weight: 600;
     line-height: 1;
     /*color: #404040;*/
@@ -271,7 +271,9 @@ input[type=text] {
     /*text-transform: uppercase;*/
 }
 
-
+.dropdown-item{
+    font-size: 0.94 rem !important;
+}
 /*.site-header .nav-bar .site-navigation ul.menus {
   height: auto;
   width: 180px;
